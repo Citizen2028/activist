@@ -15,7 +15,7 @@ attrs==23.1.0
     #   referencing
 build==1.0.3
     # via pip-tools
-certifi==2023.7.22
+certifi==2024.7.4
     # via
     #   -r requirements.txt
     #   requests
@@ -27,16 +27,11 @@ charset-normalizer==3.3.2
     #   requests
 click==8.1.7
     # via pip-tools
-colorama==0.4.6
-    # via
-    #   build
-    #   click
-    #   pytest
 coverage[toml]==7.3.2
     # via pytest-cov
 distlib==0.3.7
     # via virtualenv
-django==4.2.10
+django==4.2.14
     # via
     #   -r requirements.txt
     #   django-cors-headers
@@ -54,7 +49,7 @@ django-stubs-ext==4.2.5
     # via
     #   -r requirements.txt
     #   django-stubs
-djangorestframework==3.14.0
+djangorestframework==3.15.2
     # via
     #   -r requirements.txt
     #   drf-spectacular
@@ -68,11 +63,11 @@ faker==19.11.0
     # via factory-boy
 filelock==3.12.4
     # via virtualenv
-gunicorn==21.2.0
+gunicorn==22.0.0
     # via -r requirements.txt
 identify==2.5.30
     # via pre-commit
-idna==3.4
+idna==3.7
     # via
     #   -r requirements.txt
     #   requests
@@ -106,7 +101,7 @@ packaging==23.2
     #   build
     #   gunicorn
     #   pytest
-pillow==10.2.0
+pillow==10.3.0
     # via -r requirements.txt
 pip-tools==7.3.0
     # via -r requirements-dev.in
@@ -133,10 +128,6 @@ python-dateutil==2.8.2
     # via faker
 python-dotenv==1.0.0
     # via -r requirements.txt
-pytz==2023.3.post1
-    # via
-    #   -r requirements.txt
-    #   djangorestframework
 pyyaml==6.0.1
     # via
     #   -r requirements.txt
@@ -147,7 +138,7 @@ referencing==0.30.2
     #   -r requirements.txt
     #   jsonschema
     #   jsonschema-specifications
-requests==2.31.0
+requests==2.32.2
     # via
     #   -r requirements.txt
     #   djangorestframework-stubs
@@ -160,7 +151,7 @@ ruff==0.1.5
     # via -r requirements-dev.in
 six==1.16.0
     # via python-dateutil
-sqlparse==0.4.4
+sqlparse==0.5.0
     # via
     #   -r requirements.txt
     #   django
@@ -184,15 +175,11 @@ typing-extensions==4.8.0
     #   django-stubs-ext
     #   djangorestframework-stubs
     #   mypy
-tzdata==2023.4
-    # via
-    #   -r requirements.txt
-    #   django
 uritemplate==4.1.1
     # via
     #   -r requirements.txt
     #   drf-spectacular
-urllib3==2.0.7
+urllib3==2.2.2
     # via
     #   -r requirements.txt
     #   requests
